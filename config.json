@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "epochs": 1000,
+  "compare_num": 50,
+  "data": {
+    "path": "/home/usr/food-101/images",
+    "size": 128,
+    "batch_size": 32,
+    "train_size": 0.6,
+    "valid_size": 0.2
+  },
+  "model": {
+    "input_channel": 3,
+    "hidden_channel1": 16,
+    "hidden_channel2": 16,
+    "latent_channel": 3,
+    "kernel_size1": 4,
+    "kernel_size2": 4,
+    "stride1": 2,
+    "stride2": 2,
+    "padding1": 2,
+    "padding2": 2,
+    "patience": 10
+  },
+  "optim": {
+    "lr": 0.001
+  }
+}
